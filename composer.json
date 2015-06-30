@@ -1,9 +1,9 @@
 {
-    "name": "arturkp/vero-api-php",
+    "name": "arturkp/vero-php-api",
     "description": "Vero PHP API Client",
     "version": "1.0",
     "type": "library",
-    "homepage": "https://github.com/arturkp/vero-api-php",
+    "homepage": "https://github.com/arturkp/vero-php-api",
     "require": {
         "php": ">=5.3.0"
     },
