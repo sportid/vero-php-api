@@ -54,6 +54,13 @@
       return $this->client->unsubscribe($user_id);
     }
 
+    public function delete($user_id) {
+      if (!$user_id)
+        throw new \Exception("Vero::Delete requires a user id");
+
+      return $this->client->delete($user_id);
+    }
+
     public function resubscribe($user_id) {
       if (!$user_id)
         throw new Exception("Vero::Resubscribe requires a user id");
